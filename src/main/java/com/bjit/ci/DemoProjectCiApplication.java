@@ -12,8 +12,7 @@ public class DemoProjectCiApplication {
 	static Logger logger = LoggerFactory.getLogger(DemoProjectCiApplication.class);
 
 	public static void main(String[] args) {
+		logger.info("Job is running...");
 		SpringApplication.run(DemoProjectCiApplication.class, args);
-		logger.trace("Log level: TRACE");
 	}
-
 }
